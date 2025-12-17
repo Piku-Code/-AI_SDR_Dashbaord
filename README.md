@@ -7,70 +7,6 @@ A modern, responsive AI-powered Sales Development Representative (SDR) Dashboard
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-blue?style=flat-square&logo=tailwindcss)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 
-## 🚀 Features
-
-### Frontend (Section A - 70%)
-- ✅ Responsive dashboard layout with sidebar navigation
-- ✅ Stats cards with real-time metrics (Emails Sent, Replies, Meetings, Reply Rate)
-- ✅ Interactive charts (Engagement Over Time, Top Performing Playbooks)
-- ✅ AI Activity Stream with live updates
-- ✅ AI Insights & Suggestions panel
-- ✅ Recent Activity feed
-- ✅ Usage footer with progress bar
-- ✅ Mobile-first responsive design
-
-### Backend Integration (Section B - 20%)
-- ✅ Express.js REST API
-- ✅ GET /api/campaigns - Fetch all campaigns with filtering & sorting
-- ✅ POST /api/campaigns - Create new campaigns
-- ✅ PUT /api/campaigns/:id - Update campaigns
-- ✅ DELETE /api/campaigns/:id - Delete campaigns
-- ✅ GET /api/stats - Dashboard statistics
-- ✅ CORS configuration
-- ✅ Input validation & error handling
-- ✅ JSON file-based data persistence
-
-### Landing Page Hero (Section C - 10%)
-- ✅ Modern tech company landing page
-- ✅ Animated gradient background with mouse tracking
-- ✅ Floating particle effects
-- ✅ Smooth scroll transitions
-- ✅ Feature cards with hover effects
-- ✅ CTA sections with animations
-- ✅ Fully responsive design
-
-## 📁 Project Structure
-
-```
-dashboard/
-├── app/                    # Next.js App Router
-│   ├── components/         # React components
-│   │   ├── AIActivityStream.tsx
-│   │   ├── AIInsights.tsx
-│   │   ├── CampaignModal.tsx
-│   │   ├── CampaignsList.tsx
-│   │   ├── Charts.tsx
-│   │   ├── Header.tsx
-│   │   ├── RecentActivity.tsx
-│   │   ├── Sidebar.tsx
-│   │   ├── StatsCards.tsx
-│   │   └── UsageFooter.tsx
-│   ├── landing/           # Landing page route
-│   │   └── page.tsx
-│   ├── lib/               # Utilities
-│   │   └── api.ts         # API client
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Dashboard page
-├── backend/               # Express.js API
-│   ├── data/
-│   │   └── campaigns.json # Data storage
-│   ├── server.js          # API server
-│   └── package.json
-├── public/                # Static assets
-├── package.json
-└── README.md
-```
 
 ## 🛠️ Installation & Setup
 
@@ -149,12 +85,6 @@ fetch('http://localhost:3001/api/campaigns', {
 fetch('http://localhost:3001/api/campaigns?status=active&sort=replyRate')
 ```
 
-## 🎨 Pages
-
-| Route | Description |
-|-------|-------------|
-| `/` | Main Dashboard |
-| `/landing` | Landing Page Hero |
 
 ## 🔧 Technologies Used
 
@@ -201,24 +131,7 @@ npm run dev      # Start with auto-reload
 npm run start    # Start production server
 ```
 
-## 🚀 Deployment
-
-### Frontend (Vercel)
-1. Push to GitHub
-2. Import project in Vercel
-3. Set environment variables
-4. Deploy
-
-### Backend (Render/Railway)
-1. Push backend folder to GitHub
-2. Create new Web Service
-3. Set start command: `npm start`
-4. Deploy
-
 ## 📄 License
 
 MIT License - feel free to use this project for your own purposes.
 
----
-
-Built with ❤️ for the AI SDR Dashboard Assessment

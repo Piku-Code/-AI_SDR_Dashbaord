@@ -1,0 +1,49 @@
+{
+  "campaigns": [
+    {
+      "id": "c1a2b3c4-d5e6-f7g8-h9i0-j1k2l3m4n5o6",
+      "name": "SaaS Outreach Q1",
+      "status": "active",
+      "emailsSent": 2500,
+      "replies": 312,
+      "meetings": 45,
+      "replyRate": 12.5,
+      "createdAt": "2024-12-01T10:00:00.000Z",
+      "updatedAt": "2024-12-17T10:00:00.000Z"
+    },
+    {
+      "id": "d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7",
+      "name": "Healthcare Connect",
+      "status": "active",
+      "emailsSent": 1800,
+      "replies": 198,
+      "meetings": 28,
+      "replyRate": 11.0,
+      "createdAt": "2024-11-15T08:30:00.000Z",
+      "updatedAt": "2024-12-16T14:20:00.000Z"
+    },
+    {
+      "id": "e3f4g5h6-i7j8-k9l0-m1n2-o3p4q5r6s7t8",
+      "name": "Tech Startup Series",
+      "status": "paused",
+      "emailsSent": 3200,
+      "replies": 420,
+      "meetings": 62,
+      "replyRate": 13.1,
+      "createdAt": "2024-10-20T12:00:00.000Z",
+      "updatedAt": "2024-12-10T09:15:00.000Z"
+    },
+    {
+      "id": "f4g5h6i7-j8k9-l0m1-n2o3-p4q5r6s7t8u9",
+      "name": "Enterprise Demo v2",
+      "status": "completed",
+      "emailsSent": 950,
+      "replies": 142,
+      "meetings": 23,
+      "replyRate": 14.9,
+      "createdAt": "2024-09-05T16:45:00.000Z",
+      "updatedAt": "2024-11-30T11:00:00.000Z"
+    }
+  ]
+}
+
